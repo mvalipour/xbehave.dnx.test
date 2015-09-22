@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "XBehave.test.dnx Class Library",
+  "authors": [ "mvalipour" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+
+  "dependencies": {
+    "xunit.execution.xbehave": "1.0.0-*",
+    "Xunit": "2.1.0-rc2-*",
+    "Xunit.runner.visualstudio": "2.1.0-rc2-*"
+  },
+
+  "frameworks": {
+    "dnx46": {
+    }
+  }
+}

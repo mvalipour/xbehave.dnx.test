@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD5EB512-1177-4BC0-91C6-4347FA318E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3585ACC9-C1D8-4102-A9B0-5483566BAC21}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "XBehave.test.dnx", "src\XBehave.test.dnx\XBehave.test.dnx.xproj", "{7EDBF839-AD27-4DFC-B464-D6AC5181460B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbehave.2.Execution.desktop", "..\..\..\..\..\..\Workspace\Git\xbehave.net\src\Xbehave.2.Execution.desktop\Xbehave.2.Execution.desktop.csproj", "{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "xunit.execution.xbehave", "src\xunit.execution.xbehave\xunit.execution.xbehave.xproj", "{08B85780-9DE8-4636-83BA-004F8BA1DBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EDBF839-AD27-4DFC-B464-D6AC5181460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDBF839-AD27-4DFC-B464-D6AC5181460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDBF839-AD27-4DFC-B464-D6AC5181460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDBF839-AD27-4DFC-B464-D6AC5181460B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B85780-9DE8-4636-83BA-004F8BA1DBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B85780-9DE8-4636-83BA-004F8BA1DBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B85780-9DE8-4636-83BA-004F8BA1DBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B85780-9DE8-4636-83BA-004F8BA1DBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EDBF839-AD27-4DFC-B464-D6AC5181460B} = {DD5EB512-1177-4BC0-91C6-4347FA318E53}
+		{30DF704B-27B5-4F23-A54E-A0CDB86AAF2F} = {DD5EB512-1177-4BC0-91C6-4347FA318E53}
+		{08B85780-9DE8-4636-83BA-004F8BA1DBF8} = {DD5EB512-1177-4BC0-91C6-4347FA318E53}
+	EndGlobalSection
+EndGlobal
